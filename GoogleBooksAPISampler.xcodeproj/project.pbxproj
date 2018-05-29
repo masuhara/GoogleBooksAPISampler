@@ -17,6 +17,9 @@
 		7A3F3F3F20BDD2350057BB45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F3F3D20BDD2350057BB45 /* LaunchScreen.storyboard */; };
 		7A3F3F4A20BDD2350057BB45 /* GoogleBooksAPISamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F3F4920BDD2350057BB45 /* GoogleBooksAPISamplerTests.swift */; };
 		7A3F3F5520BDD2350057BB45 /* GoogleBooksAPISamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F3F5420BDD2350057BB45 /* GoogleBooksAPISamplerUITests.swift */; };
+		7A3F3F6320BDD4040057BB45 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F3F6220BDD4040057BB45 /* BooksViewController.swift */; };
+		7A3F3F6620BDD4170057BB45 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F3F6420BDD4170057BB45 /* BookTableViewCell.swift */; };
+		7A3F3F6720BDD4170057BB45 /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F3F6520BDD4170057BB45 /* BookTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		7A3F3F5020BDD2350057BB45 /* GoogleBooksAPISamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBooksAPISamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3F3F5420BDD2350057BB45 /* GoogleBooksAPISamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBooksAPISamplerUITests.swift; sourceTree = "<group>"; };
 		7A3F3F5620BDD2350057BB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3F3F6220BDD4040057BB45 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		7A3F3F6420BDD4170057BB45 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		7A3F3F6520BDD4170057BB45 /* BookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
 		83C8C0A9C21F4AC93B3C4B55 /* Pods-GoogleBooksAPISamplerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBooksAPISamplerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBooksAPISamplerUITests/Pods-GoogleBooksAPISamplerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9CEC96809F6FCC430F11BFF3 /* Pods-GoogleBooksAPISampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBooksAPISampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBooksAPISampler/Pods-GoogleBooksAPISampler.debug.xcconfig"; sourceTree = "<group>"; };
 		C2426B3D3B79CA81C649ECC0 /* Pods_GoogleBooksAPISamplerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleBooksAPISamplerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +122,9 @@
 			children = (
 				7A3F3F3420BDD22F0057BB45 /* AppDelegate.swift */,
 				7A3F3F3620BDD22F0057BB45 /* ViewController.swift */,
+				7A3F3F6220BDD4040057BB45 /* BooksViewController.swift */,
+				7A3F3F6420BDD4170057BB45 /* BookTableViewCell.swift */,
+				7A3F3F6520BDD4170057BB45 /* BookTableViewCell.xib */,
 				7A3F3F3820BDD22F0057BB45 /* Main.storyboard */,
 				7A3F3F3B20BDD2350057BB45 /* Assets.xcassets */,
 				7A3F3F3D20BDD2350057BB45 /* LaunchScreen.storyboard */,
@@ -273,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3F3F6720BDD4170057BB45 /* BookTableViewCell.xib in Resources */,
 				7A3F3F3F20BDD2350057BB45 /* LaunchScreen.storyboard in Resources */,
 				7A3F3F3C20BDD2350057BB45 /* Assets.xcassets in Resources */,
 				7A3F3F3A20BDD22F0057BB45 /* Main.storyboard in Resources */,
@@ -304,11 +314,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleBooksAPISampler/Pods-GoogleBooksAPISampler-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,8 +389,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3F3F6620BDD4170057BB45 /* BookTableViewCell.swift in Sources */,
 				7A3F3F3720BDD22F0057BB45 /* ViewController.swift in Sources */,
 				7A3F3F3520BDD22F0057BB45 /* AppDelegate.swift in Sources */,
+				7A3F3F6320BDD4040057BB45 /* BooksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
