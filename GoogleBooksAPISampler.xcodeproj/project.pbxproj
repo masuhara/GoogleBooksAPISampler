@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14A1908B43A3A023B43FF5D7 /* Pods_GoogleBooksAPISamplerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142D51DED62B8EC6C427AED1 /* Pods_GoogleBooksAPISamplerUITests.framework */; };
+		1915B519651F05E7F644FB50 /* Pods_GoogleBooksAPISampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C50B91C271AC01CC8869114 /* Pods_GoogleBooksAPISampler.framework */; };
+		502ACC127C54FBA0E8841F26 /* Pods_GoogleBooksAPISamplerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2426B3D3B79CA81C649ECC0 /* Pods_GoogleBooksAPISamplerTests.framework */; };
 		7A3F3F3520BDD22F0057BB45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F3F3420BDD22F0057BB45 /* AppDelegate.swift */; };
 		7A3F3F3720BDD22F0057BB45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3F3F3620BDD22F0057BB45 /* ViewController.swift */; };
 		7A3F3F3A20BDD22F0057BB45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3F3F3820BDD22F0057BB45 /* Main.storyboard */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		142D51DED62B8EC6C427AED1 /* Pods_GoogleBooksAPISamplerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleBooksAPISamplerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		153EEE2F0D224F943A25175F /* Pods-GoogleBooksAPISamplerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBooksAPISamplerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBooksAPISamplerTests/Pods-GoogleBooksAPISamplerTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F9CE71B0948C6585203B52E /* Pods-GoogleBooksAPISampler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBooksAPISampler.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBooksAPISampler/Pods-GoogleBooksAPISampler.release.xcconfig"; sourceTree = "<group>"; };
+		41C117DBE0648F87064DE912 /* Pods-GoogleBooksAPISamplerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBooksAPISamplerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBooksAPISamplerTests/Pods-GoogleBooksAPISamplerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C50B91C271AC01CC8869114 /* Pods_GoogleBooksAPISampler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleBooksAPISampler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3F3F3120BDD22F0057BB45 /* GoogleBooksAPISampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleBooksAPISampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3F3F3420BDD22F0057BB45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A3F3F3620BDD22F0057BB45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		7A3F3F5020BDD2350057BB45 /* GoogleBooksAPISamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleBooksAPISamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3F3F5420BDD2350057BB45 /* GoogleBooksAPISamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBooksAPISamplerUITests.swift; sourceTree = "<group>"; };
 		7A3F3F5620BDD2350057BB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C8C0A9C21F4AC93B3C4B55 /* Pods-GoogleBooksAPISamplerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBooksAPISamplerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBooksAPISamplerUITests/Pods-GoogleBooksAPISamplerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CEC96809F6FCC430F11BFF3 /* Pods-GoogleBooksAPISampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBooksAPISampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBooksAPISampler/Pods-GoogleBooksAPISampler.debug.xcconfig"; sourceTree = "<group>"; };
+		C2426B3D3B79CA81C649ECC0 /* Pods_GoogleBooksAPISamplerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleBooksAPISamplerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27E9B6DADE269C66D41620F /* Pods-GoogleBooksAPISamplerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBooksAPISamplerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBooksAPISamplerUITests/Pods-GoogleBooksAPISamplerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1915B519651F05E7F644FB50 /* Pods_GoogleBooksAPISampler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502ACC127C54FBA0E8841F26 /* Pods_GoogleBooksAPISamplerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A1908B43A3A023B43FF5D7 /* Pods_GoogleBooksAPISamplerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				7A3F3F4820BDD2350057BB45 /* GoogleBooksAPISamplerTests */,
 				7A3F3F5320BDD2350057BB45 /* GoogleBooksAPISamplerUITests */,
 				7A3F3F3220BDD22F0057BB45 /* Products */,
+				ADB77DA59813E4A17FA9AC43 /* Pods */,
+				A2DD1FD69B80C76E90B94D04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = GoogleBooksAPISamplerUITests;
 			sourceTree = "<group>";
 		};
+		A2DD1FD69B80C76E90B94D04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C50B91C271AC01CC8869114 /* Pods_GoogleBooksAPISampler.framework */,
+				C2426B3D3B79CA81C649ECC0 /* Pods_GoogleBooksAPISamplerTests.framework */,
+				142D51DED62B8EC6C427AED1 /* Pods_GoogleBooksAPISamplerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB77DA59813E4A17FA9AC43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CEC96809F6FCC430F11BFF3 /* Pods-GoogleBooksAPISampler.debug.xcconfig */,
+				1F9CE71B0948C6585203B52E /* Pods-GoogleBooksAPISampler.release.xcconfig */,
+				41C117DBE0648F87064DE912 /* Pods-GoogleBooksAPISamplerTests.debug.xcconfig */,
+				153EEE2F0D224F943A25175F /* Pods-GoogleBooksAPISamplerTests.release.xcconfig */,
+				D27E9B6DADE269C66D41620F /* Pods-GoogleBooksAPISamplerUITests.debug.xcconfig */,
+				83C8C0A9C21F4AC93B3C4B55 /* Pods-GoogleBooksAPISamplerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A3F3F5920BDD2350057BB45 /* Build configuration list for PBXNativeTarget "GoogleBooksAPISampler" */;
 			buildPhases = (
+				69AA7E40D01F972832791E26 /* [CP] Check Pods Manifest.lock */,
 				7A3F3F2D20BDD22F0057BB45 /* Sources */,
 				7A3F3F2E20BDD22F0057BB45 /* Frameworks */,
 				7A3F3F2F20BDD22F0057BB45 /* Resources */,
+				097A2E68940F81547B4C80AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A3F3F5C20BDD2350057BB45 /* Build configuration list for PBXNativeTarget "GoogleBooksAPISamplerTests" */;
 			buildPhases = (
+				A4BB1B6424B8E77DEFB1F768 /* [CP] Check Pods Manifest.lock */,
 				7A3F3F4120BDD2350057BB45 /* Sources */,
 				7A3F3F4220BDD2350057BB45 /* Frameworks */,
 				7A3F3F4320BDD2350057BB45 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A3F3F5F20BDD2350057BB45 /* Build configuration list for PBXNativeTarget "GoogleBooksAPISamplerUITests" */;
 			buildPhases = (
+				B8C731D5DCE99B246687980F /* [CP] Check Pods Manifest.lock */,
 				7A3F3F4C20BDD2350057BB45 /* Sources */,
 				7A3F3F4D20BDD2350057BB45 /* Frameworks */,
 				7A3F3F4E20BDD2350057BB45 /* Resources */,
@@ -250,6 +294,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		097A2E68940F81547B4C80AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleBooksAPISampler/Pods-GoogleBooksAPISampler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleBooksAPISampler/Pods-GoogleBooksAPISampler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69AA7E40D01F972832791E26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleBooksAPISampler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BB1B6424B8E77DEFB1F768 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleBooksAPISamplerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C731D5DCE99B246687980F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleBooksAPISamplerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A3F3F2D20BDD22F0057BB45 /* Sources */ = {
@@ -428,6 +549,7 @@
 		};
 		7A3F3F5A20BDD2350057BB45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CEC96809F6FCC430F11BFF3 /* Pods-GoogleBooksAPISampler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,12 +562,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.GoogleBooksAPISampler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7A3F3F5B20BDD2350057BB45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9CE71B0948C6585203B52E /* Pods-GoogleBooksAPISampler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,12 +581,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.GoogleBooksAPISampler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7A3F3F5D20BDD2350057BB45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C117DBE0648F87064DE912 /* Pods-GoogleBooksAPISamplerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +609,7 @@
 		};
 		7A3F3F5E20BDD2350057BB45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153EEE2F0D224F943A25175F /* Pods-GoogleBooksAPISamplerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +631,7 @@
 		};
 		7A3F3F6020BDD2350057BB45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27E9B6DADE269C66D41620F /* Pods-GoogleBooksAPISamplerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +652,7 @@
 		};
 		7A3F3F6120BDD2350057BB45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C8C0A9C21F4AC93B3C4B55 /* Pods-GoogleBooksAPISamplerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
