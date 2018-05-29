@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2B355ED3C00F5E2F81BACF2785B3899A"
+               BlueprintIdentifier = "E4C10BF5249889EBF2E9F3B9D4FC34F0"
                BuildableName = "Pods_GoogleBooksAPISampler.framework"
                BlueprintName = "Pods-GoogleBooksAPISampler"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2B355ED3C00F5E2F81BACF2785B3899A"
+            BlueprintIdentifier = "E4C10BF5249889EBF2E9F3B9D4FC34F0"
             BuildableName = "Pods_GoogleBooksAPISampler.framework"
             BlueprintName = "Pods-GoogleBooksAPISampler"
             ReferencedContainer = "container:Pods.xcodeproj">
