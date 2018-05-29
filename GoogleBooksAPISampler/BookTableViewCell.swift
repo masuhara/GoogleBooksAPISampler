@@ -12,7 +12,7 @@ class BookTableViewCell: UITableViewCell {
     
     @IBOutlet weak var bookTitleLabel: UILabel!
     @IBOutlet weak var bookImageView: UIImageView!
-    @IBOutlet weak var detailLabel: UILabel!
+    @IBOutlet weak var authorLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
